@@ -2,7 +2,7 @@
 
 Agent Skills for Dory, the AI-native SQL workspace for humans and agents.
 
-## Install
+## Install with Agent Skills
 
 Install the Dory skill with the open Agent Skills CLI:
 
@@ -16,11 +16,21 @@ Or use the GitHub shorthand:
 npx skills add dorylab/skills --skill dory
 ```
 
+## Install as a Codex Plugin
+
+Add the Dory plugin marketplace:
+
+```bash
+codex plugin marketplace add dorylab/skills
+```
+
+Then open the Codex Plugins directory, choose the Dory marketplace, and install `Dory`.
+
 ## What It Does
 
 The `dory` skill teaches agents when to use Dory, how to use Dory MCP tools, and how to preserve generated SQL, result sets, and findings in an editable Dory Agent Run workspace.
 
-It does not install the Dory CLI or configure MCP automatically. For live database access, connect Dory MCP from the main Dory documentation.
+The skill and plugin do not install the Dory CLI or configure MCP automatically. For live database access, connect Dory MCP from the main Dory documentation.
 
 ## Skill
 

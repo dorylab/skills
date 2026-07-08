@@ -1,0 +1,20 @@
+{
+  "name": "dorylab-skills",
+  "interface": {
+    "displayName": "Dorylab Skills"
+  },
+  "plugins": [
+    {
+      "name": "dory",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
