@@ -7,7 +7,7 @@
     "email": "dorystudio.lab@gmail.com",
     "url": "https://github.com/dorylab"
   },
-  "homepage": "https://github.com/dorylab/skills",
+  "homepage": "https://getdory.dev",
   "repository": "https://github.com/dorylab/skills",
   "license": "Apache-2.0",
   "keywords": [
@@ -24,16 +24,18 @@
     "shortDescription": "AI-native SQL workspace for agents",
     "longDescription": "Use Dory as an AI-native SQL workspace for database inspection, schema exploration, read-only SQL, Agent Runs, workspace tabs, saved queries, and result preservation. The plugin provides workflow guidance only; live database access requires Dory MCP setup.",
     "developerName": "Dory",
-    "category": "Productivity",
+    "category": "Analysis",
     "capabilities": [
       "Skills"
     ],
-    "websiteURL": "https://github.com/dorylab/dory",
+    "websiteURL": "https://getdory.dev",
     "defaultPrompt": [
       "Use Dory to inspect this database safely.",
       "Explore schema before writing SQL.",
       "Save SQL analysis in a Dory workspace."
     ],
-    "brandColor": "#2563EB"
+    "brandColor": "#0B72B9",
+    "composerIcon": "./assets/dory-logo.png",
+    "logo": "./assets/dory-logo.png"
   }
 }
